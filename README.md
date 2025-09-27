@@ -39,14 +39,16 @@ Una aplicación web moderna para explorar información de países del mundo, con
 ### Instalación de dependencias
 
 # Con npm
-\`\`\`
+```bash
 npm install
+```
 
 ### Ejecución en desarrollo
 
 # Con npm
-\`\`\`
+```
 npm run dev
+```
 
 ## Disponibilidad
 La aplicación estará disponible en [http://localhost:3000](http://localhost:3000)
@@ -74,10 +76,9 @@ Al hacer clic en cualquier país se abre un modal con:
 
 ## API Utilizada
 
-\`\`\`
+```
 https://restcountries.com/v3.1/all?fields=name,cca3,flags,region,population,capital
-\`\`\`
-
+```
 ## Autor
 
 Desarrollado como prueba técnica para demostrar habilidades en Next.js, consumo de APIs, manejo de estado y diseño responsive.
